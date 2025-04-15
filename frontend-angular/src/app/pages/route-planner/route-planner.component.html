@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>🚛 Route Planner</h1>
+  
+    <form (ngSubmit)="getETA()" #routeForm="ngForm">
+      <label>Latitude:</label>
+      <input type="number" [(ngModel)]="latitude" name="latitude" required />
+  
+      <label>Longitude:</label>
+      <input type="number" [(ngModel)]="longitude" name="longitude" required />
+  
+      <label>Distance (km):</label>
+      <input type="number" [(ngModel)]="distance" name="distance" required />
+  
+      <button type="submit">Get ETA</button>
+    </form>
+  
+    <div *ngIf="eta">
+      <h2>📦 ETA: {{ eta }} minutes</h2>
+      <p>🌡️ Temperature: {{ weather?.temperature_c }}°C</p>
+      <p>💨 Wind Speed: {{ weather?.wind_speed_kmh }} km/h</p>
+      <p>☁️ Weather Code: {{ weather?.weather_code }}</p>
+    </div>
+  </div>
+  

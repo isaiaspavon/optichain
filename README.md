@@ -12,7 +12,7 @@ Built with ❤️ using:
 
 ## 📸 Demo
 
-![OptiChain Screenshot](<img width="1440" alt="optichain_screenshot" src="https://github.com/user-attachments/assets/c0947e25-c8c4-4b92-9f3e-efe27982914a" />)
+![OptiChain Screenshot](https://github.com/isaiaspavon/optichain/blob/dea7957c2ee1c9698eb80e586c1abf0fd2c5b504/optichain_screenshot.png)
 
 ---
 
